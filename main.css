@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    text-align: center;
+    padding-top: 100px;    
+    background-color: rgb(230, 230, 230);
+}
+
+header {
+    margin-bottom: 24px;    
+}
+
+form {
+    margin-bottom: 24px;    
+}
+
+form input {
+    padding: 8px;  
+    font-size: 16px;
+}
+
+button {
+    padding: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.lista-tarefa {
+    padding: 12px;
+    text-decoration: line-through;
+    color: red;        
+}
